@@ -37,7 +37,6 @@ public class AlmostSorted {
             list.add(e);
             sorted.add(e);
         }
-        in.nextLine();
         Collections.sort(sorted);
         int amount = coutMin(list,sorted);
         System.out.println(amount);
